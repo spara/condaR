@@ -1,0 +1,17 @@
+name: condaR
+version: 0.1
+
+install_in_dependency_order: True
+ignore_duplicate_files: True
+installer_filename: condaR
+
+channels:
+  - http://repo.anaconda.com/pkgs/main/
+  - https://repo.continuum.io/pkgs/r/osx-64/
+
+specs:
+  - python
+  - r-base
+  - r-essentials
+
+installer_type: pkg  [osx]
