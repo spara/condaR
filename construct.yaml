@@ -2,8 +2,7 @@ name: condaR
 version: 0.1
 
 install_in_dependency_order: True
-ignore_duplicate_files: True
-installer_filename: condaR
+installer_filename: conda-R.pkg
 
 channels:
   - https://repo.anaconda.com/pkgs/main/
@@ -11,6 +10,8 @@ channels:
 
 specs:
   - python
+  - conda
+  - jupyter
   - r-base
   - r-essentials
 
