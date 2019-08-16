@@ -22,7 +22,7 @@ initialize_by_default: True
 installer_type: pkg  [osx] 
 license_file: ../EULA.txt
 ```
-Note that the conda environment is initialized in install, this means that installing it will overwrite the conda initialization script if there Anconda or Miniconda are installed.
+Note that the conda environment is initialized in install, this means that installing it will overwrite the conda initialization script if Anconda or Miniconda are installed.
 
 ## Installing and Starting
 
