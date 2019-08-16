@@ -47,7 +47,9 @@ To run the example notebook clcik on the conda-R in Start Menu.
 
 ![](./image/startmenu.png)
 
-The application will open a menu to open notebook will open in a browser.
+The application will open a browser window to Jupyter, navigate to the repository to open the example notebook. 
+
+
 
 
 
