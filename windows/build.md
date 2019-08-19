@@ -34,7 +34,7 @@ In the Anaconda Prompt:
 The installer will be written to the working directory
 ## Installing
 
-Install by double clicking on the conda-R.exe in the Windows File Manager.
+Install by double clicking on the conda-R.exe in File Explorer.
 
 ![](./image/installer.png)
 
