@@ -102,7 +102,7 @@ The keys available to customise the installer are listed on the [constructor git
 
 Building an installer is relatively simple but there are a few operating system specific characteristics. For that reason, the rest of the tutorial has been split up by operating system.
 
-* [macOS](./osx/build.md)
+* [macOS](./macOS/build.md)
 * [linux](./linux/build.md)
 * [windows](./windows/build.md)
 
