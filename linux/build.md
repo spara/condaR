@@ -27,7 +27,7 @@ To install
 ```
 $ sh conda-R.sh
 ```
-To initialize conda-R, reload .bash_profile
+To initialize conda-R, reload .bashrc
 ```
 $ source ~/.bashrc
 (base) $
