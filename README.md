@@ -8,9 +8,11 @@ This tutorial shows how to build an installer with custom R environment and Jupy
 
 This tutorial requires the following :
 * git
+
   (To install" `conda install git`)
 
 * conda 4.7.10 or greater 
+
   (either by installing the latest version of [Anaconda Distribution](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or by upgrading `conda upgrade consa`)
 
 ## Getting Started
