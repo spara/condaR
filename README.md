@@ -13,13 +13,13 @@ This tutorial requires the following :
 
 * conda 4.7.10 or greater 
 
-  (either by installing the latest version of [Anaconda Distribution](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or by upgrading `conda upgrade consa`)
+  (either by installing the latest version of [Anaconda Distribution](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or by upgrading `conda upgrade conda`)
 
 ## Getting Started
 
 Clone the project.
 ```
-git clone https://github.com/spara.condaR
+git clone https://github.com/spara/condaR
 ```
 
 If necessary check the conda version and update conda to the latest version, in the Anaconda prompt:

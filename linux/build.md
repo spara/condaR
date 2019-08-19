@@ -14,11 +14,10 @@ license_file: ../EULA.txt
 Note that the conda environment is initialized in install, this means that installing it will overwrite the conda initialization script if Anconda or Miniconda are installed.
 
 ## Building the Installer
-To build the installer, click on the Anaconda Promopt in the Start Menu
 
-In the Anaconda Prompt:
+In the terminal:
 ```
-(base) $ cd ~\<path-to-repo>\condaR\linux
+(base) $ cd ~/<path-to-repo>/condaR/linux
 (base) $ constructor .
 ```
 The installer will be written to the working directory
@@ -31,7 +30,7 @@ $ sh conda-R.sh
 To initialize conda-R, reload .bash_profile
 ```
 $ source ~/.bashrc
-(base) :
+(base) $
 ```
 ## Running R in Jupyter Notebook
 To run the example notebook:
@@ -40,4 +39,4 @@ To run the example notebook:
 ```
 The notebook will open in a browser.
 
-
+![](../image/notebook.png)

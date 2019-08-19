@@ -24,7 +24,7 @@ Note that the conda environment is initialized in install, this means that insta
 ## Building the Installer
 To build the installer, click on the Anaconda Promopt in the Start Menu
 
-![](./image/anaconda.png)
+![](../image/anaconda.png)
 
 In the Anaconda Prompt:
 ```
@@ -36,20 +36,20 @@ The installer will be written to the working directory
 
 Install by double clicking on the conda-R.exe in File Explorer.
 
-![](./image/installer.png)
+![](../image/installer.png)
 
 Follow the installer prompts.
 
-![](./image/welcome.png)
+![](../image/welcome.png)
 
 ## Running R in Jupyter Notebook
 To run the example notebook clcik on the conda-R in Start Menu.
 
-![](./image/startmenu.png)
+![](../image/startmenu.png)
 
 The application will open a browser window to Jupyter, navigate to the repository to open the example notebook. 
 
-
+![](../image/notebook.png)
 
 
 
