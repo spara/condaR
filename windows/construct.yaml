@@ -18,3 +18,5 @@ specs:
   - jupyter
   - r-base
   - r-essentials
+  - menuinst
+  - console_shortcut
