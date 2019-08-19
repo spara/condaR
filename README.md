@@ -71,7 +71,7 @@ constructor 3.0.0
 
 ## Constructor Basics
 
-Constructor uses a YAML file to configure the build. The default file name for the configuration file is `construct.yaml` The only mandatory elements are the name and version, but to create an environment you will need to specify the channels and the packages to be installed. This is an example file that creates an installer with just pythong and conda:
+Constructor uses a YAML file to configure the build. The default file name for the configuration file is `construct.yaml` The only mandatory elements are the name and version, but to create an environment you will need to specify the channels and the packages to be installed. This is an example file that creates an installer with just python and conda:
 ```
 name: myBase
 version: 0.1
@@ -89,7 +89,7 @@ To build this installer
 (base) $ constructor .
 ```
 
-If you run this command in macOS, constructor will create an installer named myBase-0.1-MacOSX-x86_64.sh by default. By default, the installer users name-version-OS as the naming convention a name is not specified. If you want create a .pkg installer with the name of `myBase_Belong_To_Us` add the `installer_type` and `installer_filename` keys to construct.yaml
+If you run this command in macOS, constructor will create an installer named myBase-0.1-MacOSX-x86_64.sh. By default, the installer uses name-version-OS as the naming convention if a name is not specified. If you want create a .pkg installer named `myBase_Belong_To_Us` add the `installer_type` and `installer_filename` keys to construct.yaml
 
 ```
 installer_filename: myBase_Belong_To_Us.pkg
